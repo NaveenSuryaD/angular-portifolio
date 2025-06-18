@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/nx/schemas/project-schema.json",
-  "name": "angular-portifolio",
+  "name": "angular-portfolio",
   "projectType": "application",
   "generators": {
     "@schematics/angular:component": {
@@ -13,7 +13,7 @@
     "build": {
       "executor": "@angular/build:application",
       "options": {
-        "outputPath": "dist/angular-portifolio",
+        "outputPath": "dist/angular-portfolio",
         "browser": "src/main.ts",
         "polyfills": [
           "zone.js"
